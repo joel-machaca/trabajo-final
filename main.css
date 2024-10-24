@@ -1,0 +1,289 @@
+/* --------------------- */
+/* Estilos generales */
+/* --------------------- */
+
+/* Fondo y estilos del body */
+body {
+    background-image: url(./img/fondomasoscuro.avif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* CARRUSEL */
+.carousel-caption {
+    display: flex;
+
+    position: absolute;
+    top: 50%; /* Ajusta este valor hacia arriba según necesites */
+    left: 50%;
+    transform: translate(0 40%);
+    text-align: center;
+}
+.carousel-caption h5 {
+    background-color: #00000067;
+    font-size: 2rem; /* Cambia este valor para ajustar el tamaño del título */
+}
+
+.carousel-caption p {
+    background-color: #00000067;
+    font-size: 1.2rem; /* Cambia este valor para ajustar el tamaño del párrafo */
+}
+
+/* CARRUSEL TERMINADO */
+
+.navbar-brand img{
+    width: 450px;
+    height:100px;
+}
+
+
+/* Fondo oscuro aplicado en secciones específicas */
+.fondito {
+    background-color: #000 !important;
+}
+
+/* Fuente Montserrat (reemplazada por Roboto en este caso) */
+.fuente-montserrat {
+    font-family: Roboto, sans-serif;
+}
+
+/* --------------------- */
+/* Encabezado y barra de navegación */
+/* --------------------- */
+
+/* Enlaces en la barra de navegación */
+.navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+/* Efecto hover en los enlaces de la navegación */
+.navbar-nav .nav-link:hover {
+    color: #ffff01;
+}
+
+/* --------------------- */
+/* Títulos y textos */
+/* --------------------- */
+
+/* Títulos H2 */
+h2 {
+    font-size: 45px !important;
+}
+
+/* Texto en negrita */
+strong {
+    color: #dfdfdf;
+}
+
+/* Artículo con color específico */
+article {
+    color: #c2c5aa;
+}
+
+/* Colores principales */
+.color-main {
+    color: #dde0d9;
+}
+
+/* Colores en áreas destacadas */
+.color-destacado h5 {
+    color: #b8f500;
+}
+
+.color-destacado p {
+    color: #dff6c8;
+}
+
+/* --------------------- */
+/* Sección de consultas y formulario */
+/* --------------------- */
+
+/* Contenedor del formulario */
+.form-container {
+    background-image: url('img/fondoformulario.jpeg');
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+/* Sección de consultas */
+.consultas-section {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Estilos para controles de formulario en la sección de consultas */
+.consultas-form .form-control, .consultas-form .form-select {
+    max-width: 100%;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+
+/* Textarea en la sección de consultas */
+.consultas-form textarea {
+    resize: none;
+}
+
+/* Botón en la sección de consultas */
+.consultas-form button {
+    width: 200px;
+}
+
+/* Texto en las secciones de consultas y reservas */
+.consultas, .reservas {
+    color: #d2bbbb;
+}
+
+/* --------------------- */
+/* Formulario de reservaciones */
+/* --------------------- */
+
+.reservation-form {
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* --------------------- */
+/* Botones y enlaces */
+/* --------------------- */
+
+/* Estilo general para botones */
+.btn {
+    width: 25%;
+    background-color: #7fffd4;
+    color: #000;
+}
+
+/* Enlaces sin subrayado */
+a {
+    text-decoration: none;
+}
+
+/* --------------------- */
+/* Estilos de elementos del menú */
+/* --------------------- */
+
+/* Items del menú */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #f9f9f925;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Imágenes dentro de los items del menú */
+.menu-item img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Insignia de precio en los items del menú */
+.menu-item .price-badge {
+    background-color: #f20202;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+/* --------------------- */
+/* Tablas */
+/* --------------------- */
+
+/* Tabla centrada */
+.centered-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+/* Fila de encabezado */
+.header-row {
+    background-color: #e8e8e8;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+/* Filas pares e impares en la tabla */
+.even-row {
+    background-color: #ff2a00 !important;
+}
+
+.odd-row {
+    background-color: #fff1ee;
+}
+
+/* Última celda alineada a la derecha */
+td:last-child {
+    text-align: right;
+}
+
+/* Tamaño de fuente en las celdas */
+td {
+    font-size: 1em;
+}
+
+/* Tabla con respuesta horizontal */
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Quitar bordes de la tabla */
+.centered-table td, .centered-table th {
+    border: none;
+}
+
+/* --------------------- */
+/* Footer */
+/* --------------------- */
+
+/* Fondo del pie de página */
+.fondo-footer {
+    background-color: #000;
+}
+
+/* Colores en el pie de página */
+.color-arriba-footer span, .copy, .fondo-footer p {
+    color: #fff;
+}
+
+.color-redes a.text-reset i {
+    color: #3e61ef;
+}
+
+.fondo-footer h6 {
+    color: #aeaeae;
+}
+
+/* --------------------- */
+/* Otros estilos adicionales */
+/* --------------------- */
+
+/* Tarjetas con borde blanco */
+.card {
+    border: 1px solid #fff;
+    background-color: transparent !important;
+}
+
+/* Ajuste de imágenes */
+.imagen-ajustada {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Estilo para tablas en general */
+td, th {
+    padding: 15px;
+}
